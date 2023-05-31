@@ -5,7 +5,7 @@ const fs = require('fs');
 // In-memory storage for users
 let users = [];
 
-// Create HTTP server
+// Creating HTTP server
 const server = http.createServer((req, res) => {
   const { pathname, query } = url.parse(req.url, true);
 
